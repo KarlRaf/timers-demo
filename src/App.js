@@ -12,6 +12,18 @@ class App extends Component {
           <Stopwatch />
           <Countdown />
         </div>
+        <div className="Timers">
+          <Stopwatch />
+          <Countdown />
+        </div>
+        <div className="Timers">
+          <Stopwatch />
+          <Countdown />
+        </div>
+        <div className="Timers">
+          <Stopwatch />
+          <Countdown />
+        </div>
       </div>
     );
   }

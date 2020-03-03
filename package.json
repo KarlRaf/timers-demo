@@ -2,9 +2,10 @@
   "name": "timers-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://peterdurham.github.io/timers-demo/",
+  "homepage": "https://karlraf.github.io/timers-demo/",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.13.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
