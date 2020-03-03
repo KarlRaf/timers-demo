@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/timers-demo/static/css/main.177c7536.chunk.css",
-    "main.js": "/timers-demo/static/js/main.a2bf325d.chunk.js",
-    "main.js.map": "/timers-demo/static/js/main.a2bf325d.chunk.js.map",
+    "main.js": "/timers-demo/static/js/main.82277c79.chunk.js",
+    "main.js.map": "/timers-demo/static/js/main.82277c79.chunk.js.map",
     "runtime-main.js": "/timers-demo/static/js/runtime-main.11a4c2c1.js",
     "runtime-main.js.map": "/timers-demo/static/js/runtime-main.11a4c2c1.js.map",
     "static/js/2.fc93a8d5.chunk.js": "/timers-demo/static/js/2.fc93a8d5.chunk.js",
     "static/js/2.fc93a8d5.chunk.js.map": "/timers-demo/static/js/2.fc93a8d5.chunk.js.map",
     "index.html": "/timers-demo/index.html",
-    "precache-manifest.bba4dc8393ffb400d6dd85b651a993cc.js": "/timers-demo/precache-manifest.bba4dc8393ffb400d6dd85b651a993cc.js",
+    "precache-manifest.7cb255000ff7aee1c37e553ca0cc39d6.js": "/timers-demo/precache-manifest.7cb255000ff7aee1c37e553ca0cc39d6.js",
     "service-worker.js": "/timers-demo/service-worker.js",
     "static/css/main.177c7536.chunk.css.map": "/timers-demo/static/css/main.177c7536.chunk.css.map",
     "static/js/2.fc93a8d5.chunk.js.LICENSE.txt": "/timers-demo/static/js/2.fc93a8d5.chunk.js.LICENSE.txt",
     "static/media/20_minutes_blanc.png": "/timers-demo/static/media/20_minutes_blanc.69efd5a5.png",
-    "static/media/Agnès_marion.png": "/timers-demo/static/media/Agnès_marion.2b13e68d.png",
+    "static/media/Agnes_marion.png": "/timers-demo/static/media/Agnes_marion.2b13e68d.png",
     "static/media/Denis_broliquier.png": "/timers-demo/static/media/Denis_broliquier.b58f08e2.png",
     "static/media/Etienne_blanc.png": "/timers-demo/static/media/Etienne_blanc.dcceeb9d.png",
-    "static/media/Georges_kepenekian_detouré.png": "/timers-demo/static/media/Georges_kepenekian_detouré.48eaf718.png",
-    "static/media/Grégory_doucet_détouré.png": "/timers-demo/static/media/Grégory_doucet_détouré.d30854a8.png",
+    "static/media/Georges_kepenekian.png": "/timers-demo/static/media/Georges_kepenekian.48eaf718.png",
+    "static/media/Gregory_doucet.png": "/timers-demo/static/media/Gregory_doucet.d30854a8.png",
     "static/media/Logo-Forum.png": "/timers-demo/static/media/Logo-Forum.189a24e2.png",
-    "static/media/NPG_détourée.png": "/timers-demo/static/media/NPG_détourée.8c1b3b9c.png",
+    "static/media/NPG.png": "/timers-demo/static/media/NPG.8c1b3b9c.png",
     "static/media/Sandrine_Runel.png": "/timers-demo/static/media/Sandrine_Runel.fba86995.png",
-    "static/media/Yann_Cucherat_détouré.png": "/timers-demo/static/media/Yann_Cucherat_détouré.1ffbc11c.png"
+    "static/media/Yann_Cucherat.png": "/timers-demo/static/media/Yann_Cucherat.1ffbc11c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.11a4c2c1.js",
     "static/js/2.fc93a8d5.chunk.js",
     "static/css/main.177c7536.chunk.css",
-    "static/js/main.a2bf325d.chunk.js"
+    "static/js/main.82277c79.chunk.js"
   ]
 }
