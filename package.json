@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://karlraf.github.io/timers-demo/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "node-sass": "^4.13.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -26,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }

@@ -67,8 +67,8 @@ class Countdown extends Component {
 
     return (
       <div className="Countdown">
-        <div className="Countdown-header">Countdown</div>
-        <div className="Countdown-label">Hours : Minutes : Seconds</div>
+        <div className="Countdown-header">Georges Képénékian</div>
+        <img className="img-profil" src={require('./Kepenekian.png')} />
         <div className="Countdown-display">
           <button onClick={() => this.adjustTimer("incHours")}>&#8679;</button>
           <button onClick={() => this.adjustTimer("incMinutes")}>
