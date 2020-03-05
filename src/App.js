@@ -16,16 +16,16 @@ class App extends Component {
       <div className="App">
         <div className="App-title"><img className="img-logo" src={require('./Logo-Forum.png')} /> Le Grand Débat des Municipales <img className="img-logo" src={require('./20_minutes_blanc.png')} /></div>
         <div className="Timers">
-          <Countdown />
-          <Countdown_2 />
-          <Countdown_3 />
-          <Countdown_4 />
-        </div>
-        <div className="Timers">
-          <Countdown_5 />
           <Countdown_6 />
           <Countdown_7 />
           <Countdown_8 />
+          <Countdown_2 />
+        </div>
+        <div className="Timers">
+          <Countdown />
+          <Countdown_3 />
+          <Countdown_4 />
+          <Countdown_5 />
         </div>
       </div>
     );

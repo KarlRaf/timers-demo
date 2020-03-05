@@ -8,6 +8,19 @@ class Countdown_8 extends Component {
     timerTime: 0
   };
 
+  componentDidMount () {
+      window.addEventListener('keydown', this.handler)
+    }
+
+    handler = (event) => {
+      if (event.key === 'y') {
+        this.stopTimer()
+      }
+      if (event.key === 't') {
+        this.startTimer()
+      }
+    }
+
   startTimer = () => {
     this.setState({
       timerOn: true,

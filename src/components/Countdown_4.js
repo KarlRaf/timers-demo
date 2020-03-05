@@ -8,6 +8,20 @@ class Countdown_4 extends Component {
     timerTime: 0
   };
 
+  componentDidMount () {
+      window.addEventListener('keydown', this.handler)
+    }
+
+    handler = (event) => {
+      if (event.key === 'h') {
+        this.stopTimer()
+      }
+      if (event.key === 'g') {
+        this.startTimer()
+      }
+    }
+
+
   startTimer = () => {
     this.setState({
       timerOn: true,

@@ -8,6 +8,15 @@ class Countdown_2 extends Component {
     timerTime: 0
   };
 
+
+
+//   handleKeyPress = (event) => {
+//   if(event.key === 'a'){
+//     console.log('enter press here! ')
+//   }
+// }
+
+
   startTimer = () => {
     this.setState({
       timerOn: true,
@@ -27,6 +36,19 @@ class Countdown_2 extends Component {
       }
     }, 10);
   };
+
+  componentDidMount () {
+      window.addEventListener('keydown', this.handler)
+    }
+
+    handler = (event) => {
+      if (event.key === 'i') {
+        this.stopTimer()
+      }
+      if (event.key === 'u') {
+        this.startTimer()
+      }
+    }
 
   stopTimer = () => {
     clearInterval(this.timer);
@@ -92,7 +114,7 @@ class Countdown_2 extends Component {
         </div>
 
         {timerOn === false && (timerStart === 0 || timerTime === timerStart) && (
-          <button className="Button-start" onClick={this.startTimer}>
+          <button className="Button-start" onClick={this.startTimer} onKeyPress={this.handleKeyPress}>
             Start
           </button>
         )}
