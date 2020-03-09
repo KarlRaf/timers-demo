@@ -16,7 +16,7 @@ class Countdown_6 extends Component {
       if (event.key === 'z') {
         this.stopTimer()
       }
-      if (event.key === 'a') {
+      if (event.key === 'A') {
         this.startTimer()
       }
     }
